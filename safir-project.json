@@ -1,0 +1,8 @@
+{
+  "schema": "safir-project/1",
+  "name": "nova planner",
+  "description": "NOVA Planner Android/PWA production-ready source with local reminders and functional planner assistant.",
+  "platform": "android+web",
+  "framework": "React + Capacitor",
+  "updated_at": "2026-08-25T01:38:00+02:00"
+}

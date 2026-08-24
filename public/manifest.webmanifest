@@ -1,0 +1,15 @@
+{
+  "name": "NOVA Planner",
+  "short_name": "NOVA",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#090d1b",
+  "background_color": "#090d1b",
+  "icons": [{"src":"/assets/nova-icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}],
+  "description": "Calendar, taskuri, note și remindere locale într-un singur planner.",
+  "orientation": "portrait",
+  "lang": "ro",
+  "categories": ["productivity", "lifestyle"]
+}
