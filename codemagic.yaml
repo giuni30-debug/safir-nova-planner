@@ -2,7 +2,7 @@ workflows:
   nova_android_debug:
     name: NOVA Planner Android APK
     max_build_duration: 30
-    instance_type: linux_x2
+    instance_type: mac_mini_m2
     environment:
       node: 22
       java: 21
@@ -15,7 +15,7 @@ workflows:
         script: npx cap add android
       - name: Sync native plugins
         script: npx cap sync android
-      - name: Generate original NOVA icon and splash assets
+      - name: Generate original NOVA icon assets
         script: npm run assets:android
       - name: Build installable debug APK
         script: |
